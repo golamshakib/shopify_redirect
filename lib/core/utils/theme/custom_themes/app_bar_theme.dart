@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter/material.dart';
+
 import '../../constants/app_colors.dart';
+
+
 
 class AppBarThemeData {
   AppBarThemeData._();
@@ -33,7 +37,7 @@ class AppBarThemeData {
     backgroundColor: Colors.white,
     iconColor: Colors.black,
     titleColor: Colors.black,
-    surfaceTintColor: AppColors.primary,
+    surfaceTintColor: AppColors.backgroundDark,
     elevation: 3,
   );
 
