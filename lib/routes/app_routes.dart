@@ -1,19 +1,11 @@
 import 'package:get/get.dart';
+import 'package:shopify_redirect/features/landing_page/screen/lading_screen.dart';
 
-import '../features/authentication/presentation/screens/login_screen.dart';
-import '../features/authentication/presentation/screens/sing_up_screen.dart';
-import '../features/splash_screen/presentation/screens/splash_screen.dart';
 
 class AppRoute {
-  static String init = "/";
-  static String loginScreen = "/loginScreen";
-  static String signUpScreen = "/signUpScreen";
-
-
+  static String init = "/landingPage";
 
   static List<GetPage> routes = [
-    GetPage(name: init, page: () => const SplashScreen()),
-    GetPage(name: loginScreen, page: () => const LoginScreen()),
-    GetPage(name: signUpScreen, page:() => const SignUpScreen())
+    GetPage(name: init, page:() => const LadingScreen())
   ];
 }
