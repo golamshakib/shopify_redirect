@@ -36,3 +36,4 @@ class LadingScreen extends GetView<LandingController> {
     );
   }
 }
+//// Edited By Nifat
